@@ -19,6 +19,6 @@ from mi_app.views import presentando, presentandome
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mis_datos',presentandome),
+    path('mis-datos',presentandome),
     path('mis_parientes', presentando),
 ]
