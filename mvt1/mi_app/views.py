@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from mi_app.models import Parentezco, MisDatos,MisMascotas
+from mi_app.models import Parentezco,MisMascotas
 
 
 def presentando(request):
