@@ -8,9 +8,20 @@
 </head>
 <body>
     <ul>
+        {% for midato in datos_personales %}
+            <li> {{midato.nombre}} , {{midato.apellido}} ,{{midato.edad}} ,{{midato.telefono}},{{midato.email}} </li> 
+        {% endfor %}
+    </ul>
+</body>
+<br>
+<body>
+    <ul>
         {% for pariente in parientes %}
             <li> {{pariente.nombre}} , {{pariente.apellido}} ,{{pariente.edad}} ,{{pariente.parentezco}} </li> 
         {% endfor %}
     </ul>
 </body>
+
+
+
 </html>
