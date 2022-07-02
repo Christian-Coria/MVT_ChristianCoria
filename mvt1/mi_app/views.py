@@ -8,14 +8,9 @@ def presentando(request):
 
     return render(request,'mi_app/mis_parientes.html',context)
 
-def presentandome(request):
-    context={}
-    context["datos_personales"]=MisDatos.objects.all()
-
-    return render(request,'mi_app/mis_parientes.html',context)
 
 def presentando_mascotas(request):
     context={}
-    context[mascotas]=MisMascotas.objets.all()
+    context["mascotas"]=MisMascotas.objects.all()
 
     return render(request,'mi_app/mis_mascotas.html',context)
