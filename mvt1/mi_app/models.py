@@ -12,3 +12,8 @@ class MisDatos(models.Model):
     edad= models.IntegerField()
     telefono=models.IntegerField()
     email=models.EmailField()
+
+class MisMascotas(models.Model):
+    nombre= models.CharField(max_length=40)
+    raza= models.CharField(max_length=40)
+    edad= models.IntegerField()
