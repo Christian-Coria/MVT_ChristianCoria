@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MiWEB</title>
 </head>
 <body>
+    <h1> Mis Datos Personales: </h1>
     <ul>
         {% for mi_dato in mis_datos %}
             <li> {{mi_dato.nombre}} , {{mi_dato.apellido}} ,{{mi_dato.edad}} , {{mi_dato.telefono}} ,{{mi_dato.email}}</li> 
         {% endfor %}
     </ul>
-
+    <p> Para mas Datos envia un mensaje de  WhatsApp </p>
 </body>
 
 </html>

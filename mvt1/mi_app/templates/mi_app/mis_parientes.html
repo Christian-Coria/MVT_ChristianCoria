@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MiWEB</title>
 </head>
 <body>
+    <h1> Esta es MI FAMILIA: </h1>
     <ul>
         {% for pariente in parientes %}
             <li> {{pariente.nombre}} , {{pariente.apellido}} ,{{pariente.edad}} ,{{pariente.parentezco}} </li> 
         {% endfor %}
     </ul>
+    <p> Ellos son mi tesoro mas Preciado </p>
 </body>
 
 </html>
