@@ -20,3 +20,7 @@ def presentando_mascotas(request):
     context["mascotas"]=MisMascotas.objects.all()
 
     return render(request,'mi_app/mis_mascotas.html',context)
+
+def mostrando_index(request):
+
+    return render(request,'mi_app/index.html',{"titulo":"Bienvenidos a Mi Pagina!"})
